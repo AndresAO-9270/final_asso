@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
 })
 export class HeaderComponent {
   @Input() title: string = '';
-  @Input() logoUrl: string = 'src/assets/images/logo2.jpg'; // Ruta de la imagen del logo
+  @Input() logoUrl: string = 'assets/img/logo2.jpg'; // Ruta de la imagen del logo
   @Input() logoWidth: string = 'auto'; // Ancho del logo
-  @Input() logoHeight: string = '40px'; // Altura del logo
+  @Input() logoHeight: string = '60px'; // Altura del logo
 }
