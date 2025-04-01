@@ -1,0 +1,25 @@
+.page-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  
+    .logo-container {
+      display: block;
+      align-items: center;
+  
+      .logo {
+        object-fit: contain;
+        max-height: 100%;
+        visibility: visible;
+      }
+    }
+  
+    .page-title {
+      font-size: clamp(1.5rem, 2.5vw, 2rem);
+      color: #2c3e50;
+      font-weight: 600;
+      margin: 0;
+      flex-grow: 1;
+    }
+  }

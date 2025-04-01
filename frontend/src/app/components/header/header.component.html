@@ -1,0 +1,12 @@
+<div class="page-header">
+    <!-- Contenedor del logo (solo se muestra si hay logoUrl) -->
+    <div class="logo-container" >
+      <!-- *ngIf="logoUrl -->
+      <img [src]="logoUrl" 
+           [style.width]="logoWidth"
+           [style.height]="logoHeight"
+           class="logo">
+           <!-- <img src="../../../assets/images/logo2.jpg"> -->
+    </div>
+    <h1 class="page-title">{{ title }}</h1>
+  </div>

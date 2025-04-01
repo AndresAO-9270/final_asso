@@ -1,0 +1,27 @@
+<!-- dashboard.component.html -->
+<div class="dashboard-container">
+  <app-header [title]="'Gestión de eventos'"></app-header>
+  
+    <div class="event-sections">
+      <!-- Sección Publicados -->
+      <div class="published-section">
+        <div class="status-tabs">
+          <div class="status-tab">Publicados</div>
+          <div class="status-tab">Finalizados</div>
+          <div class="status-tab active">En curso</div>
+        </div>
+      </div>
+  
+      <!-- Evento actual -->
+      <div class="current-event card">
+        <h2 class="event-title">2025 Torneo primavera</h2>
+        <p class="event-description">Registro por el torneo de primavera 2025</p>
+        <div class="event-tags">
+          <span class="tag">2025 Torneo primavera</span>
+          <span class="tag">Femenil</span>
+          <span class="tag">Registro</span>
+        </div>
+      </div>
+      <img src="assets/img/otono.jpg" alt="">
+    </div>
+  </div>
